@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hello_wolrd/src/helpers/colors.dart';
 import 'package:hello_wolrd/src/screens/widget/dashboardWidget.dart';
 
 class DashboardPage extends StatelessWidget {
@@ -33,7 +31,7 @@ class DashboardPage extends StatelessWidget {
                 DashboardItem(
                   size: size,
                   svgSrc: 'icons/menu_profile.svg',
-                  count: '12',
+                  count: '10',
                   title: 'List Users',
                   color: Colors.black45,
                 ),
